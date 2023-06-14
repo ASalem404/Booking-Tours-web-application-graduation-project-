@@ -111,7 +111,7 @@ const tourSchema = new mongoose.Schema(
     class: {
       type: String,
       enum: {
-        values: ['first', 'business', 'economy', ''],
+        values: ['first', 'business', 'economy', 'comfort', ''],
         message: 'Tour could be first , business, economy class or ',
       },
     },
